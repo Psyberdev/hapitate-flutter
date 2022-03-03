@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hapitate/sections/drawer.dart';
 import 'package:hapitate/sections/foodheader.dart';
 import 'package:hapitate/sections/offers.dart';
 
@@ -37,7 +38,7 @@ class _HomePageState extends State<HomePage> {
           ],
         ),
       ),
-      drawer: Drawer(),
+      drawer: DrawerData(),
       body: SingleChildScrollView(
         child: Container(
           width: screenWidth,

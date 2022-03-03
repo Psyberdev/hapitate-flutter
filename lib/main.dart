@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:hapitate/components/footer.dart';
+import 'package:hapitate/components/routes.dart';
+import 'package:hapitate/screens/loginpage.dart';
 
 import 'homepage.dart';
 
@@ -15,7 +18,11 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(),
-      home: HomePage(),
+      home: Footer(),
+      routes: {
+        ScreenRoutes.home: (context) => HomePage(),
+        ScreenRoutes.login: (context) => LoginPage(),
+      },
     );
   }
 }
