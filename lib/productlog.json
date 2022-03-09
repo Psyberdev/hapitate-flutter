@@ -1,0 +1,34 @@
+{
+    "products" : [
+        {
+            "headingname1" : "Ready To Eat | Breakfast",
+            "headingname2" : "For Busy Morning & Get Going",
+            "headerImages" : [
+                "assets/images/sectionlog/firstmeals.png",
+                "assets/images/sectionlog/readytoeats.png"
+            ],
+            "imagelists" : [
+                "assets/images/sectionlog/oil.png",
+                "assets/images/sectionlog/tea.png",                                
+                "assets/images/sectionlog/dairyfree.png",
+                "assets/images/sectionlog/protienbars.png",
+                "assets/images/sectionlog/sugarreplacements.png"
+            ]
+        },
+
+        {
+            "headingname1" : "Ready To Eat | Lunch",
+            "headingname2" : "For Busy Morning & Get Going",
+            "headerImages" : [
+                "assets/images/sectionlog/firstmeal.png",
+                "assets/images/sectionlog/readytoeats.png"
+            ],
+            "imagelists" : [
+                "assets/images/sectionlog/oil.png",
+                "assets/images/sectionlog/tea.png",                                
+                "assets/images/sectionlog/protienbars.png",
+                "assets/images/sectionlog/sugarreplacements.png"
+            ]
+        }
+    ]
+}

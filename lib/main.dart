@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(),
-      home: Footer(),
+      home: HomePage(),
       routes: {
         ScreenRoutes.home: (context) => HomePage(),
         ScreenRoutes.login: (context) => LoginPage(),
